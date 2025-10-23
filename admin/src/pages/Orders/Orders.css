@@ -1,0 +1,50 @@
+.order{
+    margin: 50px ;
+}
+
+.order-item{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 0.5fr 2.5fr 1fr 1fr 1fr 0.5fr;
+    gap: 40px;
+    padding: 10px 15px;
+    border: 1px solid tomato;
+    border-radius: 4px;
+    align-items: center;
+    color: #505050;
+    font-size: 14px;
+}
+.order-item-food, .order-item-name{
+    font-weight: 600;
+}
+.order-item-name{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.order-item select{
+    padding: 8px;
+    background-color: #ffe8e4;
+    width: max(10vw, 120px);
+    outline: none;
+}
+.del-btn{
+    cursor: pointer;
+    font-size: 20px;
+}
+@media (max-width:900px) {
+    .order{
+        margin-left: 30px;
+    }
+    .order-item{
+        grid-template-columns: 0.5fr 2fr 1fr;
+        font-size: 10px;
+        gap: 20px;
+    }
+    .order-item select{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .order-item img{
+        width: 30px;
+    }
+}

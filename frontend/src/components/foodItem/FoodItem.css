@@ -1,0 +1,89 @@
+.food-item{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+}
+.food-item-img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.food-item-info{
+    padding: 20px;
+}
+.food-item-name{
+    color: #2f3750;
+    font-size: max(1.2vw, 15px);
+    margin-bottom: 10px;
+}
+.food-item-price{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(181, 114, 21);
+}
+.food-name-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.food-item-img-contain{
+    position: relative;
+}
+.food-item:hover{
+    transform: scale(1.05);
+}
+.food-item-img-contain .add-icon{
+    height: 12px;
+    width: 15px;
+    position: relative;
+    border-radius: 50%;
+    background-color: white;
+    padding: 8px 8px 10px 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.food-item-img-contain .counter-icons{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+.counter-icons .minus{
+    height: 12px;
+    width: 15px;
+    position: inherit;
+    border-radius: 50%;
+    background-color: red;
+    padding: 8px 8px 10px 8px;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.counter-icons .plus{
+    height: 12px;
+    width: 15px;
+    position: inherit;
+    border-radius: 50%;
+    background-color: green;
+    padding: 8px 8px 10px 8px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.counter-icons p{
+    font-weight: 600;
+}
+.hello{
+    display: flex;
+    justify-content: end;
+    margin-top: -60px;
+    padding: 8px;
+}
+
+

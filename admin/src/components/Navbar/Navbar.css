@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+.profile{
+    width: 50px;
+    border-radius: 50%;
+}
+.logo{
+    width: max(140px, 20%);
+}
+.admin-text{
+    margin-top: -15px;
+    color: rgb(39, 38, 40);
+}
